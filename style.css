@@ -1,0 +1,23 @@
+body{
+    background: black !important;
+}
+
+.pic{
+    margin: 10px;
+    background-color: yellow;
+}
+
+.row{
+    margin-left : 0;
+    margin-right : 0;
+}
+
+#bigdiv{
+    background-image: url("./downTheWikiHole.gif");
+    background-size: 40% 50%;
+}
+
+.jumbotron{
+    margin: 0 !important;
+    
+}

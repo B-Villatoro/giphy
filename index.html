@@ -5,14 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Giphy Api!</title>
-    <link src="./style.css">
+    <link rel="stylesheet" href="./style.css" >    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
 
 
+    <header class="jumbotron text-center" style="font-size: 200%; font-weight: 800; background-color:aqua">
+        Look Up Fun Gifs!
+    </header>
+
+    <div id="topbox" class="row justify-content-center">
+        <form>
+             <input id="searchbutt" type ="submit" value ="Search!">  
+             <input type="text" id="searchIn" style="margin-right: 10px" onfocus="this.value=''" value ="Search Gifs!">
+        </form>
+             
+        <div id="buttonbox" class="">
+        </div>
+
+    </div>
+    
+    
+<div id="bigdiv" class="row justify-content-center">
+    <div class="col-11 text-center ">
+        
+            <div id="dump" class="row justify-content-center">
+                
+            </div>
+
+            <div id="dump0" class="row justify-content-center">
+                
+            </div>
+    </div>
+</div>
 
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
